@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*  */
+
+div.search-item {
+    width: 30%;
+}
+
+div.select-item {
+    float: right;
+}
+
+div.select-item select {
+    color: gray;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    height: 20px;
+}
+
+div.select-item-left select {
+    height: 28px;
+}
+
+div.select-item-left button.btn-default {
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+    border-radius: 10px;
+}
+
+div.select-item-left button.btn-default:hover {
+    background-color: rgb(191, 230, 255);
+}
+
+div.container-table {
+    margin: 50px 0;
+}
+
+div.button-item {
+    display: inline-block;
+}
+
+button.edit, button.remove {
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+}
+
+button.edit:hover, button.remove:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+button.edit a, button.remove a{
+    color: rgb(49, 41, 40);
+}
+
+button.edit a:hover, button.remove a:hover{
+    text-decoration: none;
+}
+
+div.add-item {
+    float: right;
+}
+
+
+div.pagination-block ul.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+div.pagination-block ul.pagination li.active a{
+    background-color: rgb(236, 236, 236);
+    border-color: rgb(216, 216, 216);
+}
+
+div.pagination-block ul.pagination li a{
+    color: gray;
+}
