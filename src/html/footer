@@ -1,0 +1,47 @@
+<footer>
+	<div class="row phancuoi1">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<article>
+				<h3>ABOUT</h3>
+				<p>Đây là một sản phẩm bài tập lớn với Đề tài: Quản lý sinh viên. Được thiết kế bởi Nhóm 7 -
+					Thiết Kế Web - Trường Đại Học Giao Thông Vận Tải</p>
+			</article>
+		</div>
+
+
+		<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+			<article>
+				<h3>CATEGORIES</h3>
+				<ul>
+					<li><a href="https://sis.utc.edu.vn/">Cổng thông tin sinh viên</a></li>
+					<li><a href="https://www.utc.edu.vn/doi-ngu-giang-vien">Đội ngũ giảng viên</a></li>
+					<li><a href="https://www.utc.edu.vn/gioi-thieu/cac-khoa-truc-thuoc">Các Khoa trực thuộc</a>
+					</li>
+					<li><a href="https://hoctructuyen.utc.edu.vn/dashboard">Học trực tuyến</a></li>
+					<li><a href="https://www.utc.edu.vn/gioi-thieu/ds-don-vi-chuc-nang">Đơn vị chức năng</a>
+					</li>
+				</ul>
+			</article>
+		</div>
+
+
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<article>
+				<h3>QUICK LINKS</h3>
+				<ul>
+					<li><a href="/about.html">About Us</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="#">Sitemap</a></li>
+				</ul>
+			</article>
+		</div>
+
+
+	</div>
+
+	<div class=" row phancuoi2">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<p>&copy; 2021 Bản quyền thuộc Nhóm 7 - Thiết Kế Web - UTC</p>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,27 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="phandau">
+            <div class="logo">
+                <img src="/src/images/logo.jpg" alt="">
+            </div>
+            <div class="demo">
+                <h3>
+                    HỆ THỐNG QUẢN LÝ SINH VIÊN
+                </h3>
+            </div>
+            <div class="drop">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Xin
+                        chào,
+                        Admin
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Thông tin của tôi</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

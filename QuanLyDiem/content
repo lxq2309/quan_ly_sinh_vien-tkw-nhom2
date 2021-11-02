@@ -1,0 +1,27 @@
+<style>
+    ul li a {
+        color: rgb(100, 100, 100);
+    }
+
+    ul li:hover {
+        background-color: rgb(231, 231, 231);
+    }
+
+    ul li a:hover {
+        text-decoration: none;
+        color: rgb(4, 38, 54);
+    }
+</style>
+
+<div class="quan_ly_diem">
+    <ol class="breadcrumb">
+        <li>
+            <a href="/">Trang chủ</a>
+        </li>
+        <li class="active">Quản lý điểm</li>
+    </ol>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="DanhSachDiem/">Danh sách điểm</a></li>
+        <li class="list-group-item"><a href="XetHocBong/">Xét học bổng</a></li>
+    </ul>
+</div>

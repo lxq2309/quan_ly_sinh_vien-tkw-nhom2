@@ -1,8 +1,12 @@
+/* reset css */
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*  */
+
+/* lxq - trang sinhvien, giangvien, monhoc */
 
 div.search-item {
     width: 30%;
@@ -76,4 +80,90 @@ div.pagination-block ul.pagination li.active a{
 
 div.pagination-block ul.pagination li a{
     color: gray;
+}
+
+/* vhh - trang header & footer */
+body {
+    margin-top: 150px;
+}
+
+.phandau {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.demo {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.demo h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.drop {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+main {
+    height: 1000px;
+}
+
+article {
+    display: inline-block;
+    padding: 0 40px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.phancuoi1 {
+    background: #bdbdbd;
+    /* color: */
+}
+
+.phancuoi1 article p {
+    color: rgb(65, 65, 65);
+}
+
+.phancuoi1 article ul li a {
+    color: rgb(65, 65, 65);
+}
+
+.phancuoi1 article ul li a:hover {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.phancuoi2 {
+    border-top: 1px solid rgb(138, 138, 138);
+    background: #bdbdbd;
+}
+
+.phancuoi2 p {
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
 }
