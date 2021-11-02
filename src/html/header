@@ -2,7 +2,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="phandau">
             <div class="logo">
-                <img src="/src/images/logo.jpg" alt="">
+                <a href="/"><img src="/src/images/logo.jpg" alt=""></a>
             </div>
             <div class="demo">
                 <h3>
