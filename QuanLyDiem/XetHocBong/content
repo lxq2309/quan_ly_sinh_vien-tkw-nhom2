@@ -1,172 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="breadcrumb-style">
+    <ol class="breadcrumb">
+        <li>
+            <a href="/">Trang chủ</a>
+        </li>
+        <li>
+            <a href="/QuanLyDiem/">Quản lý điểm</a>
+        </li>
+        <li class="active">Xét học bổng</li>
+    </ol>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HỆ THỐNG QUẢN LÝ SINH VIÊN</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<div class="select-item-left">
+    <select name="" id="">
+        <option value="">Chọn năm học</option>
+        <option value="">2021_2022</option>
+        <option value="">2020_2021</option>
+    </select>
+    <select name="" id="">
+        <option value="">Kỳ học</option>
+        <option value="">2021_2022_1</option>
+        <option value="">2020_2021_2</option>
+        <option value="">2020_2021_1</option>
+    </select>
+    <select name="" id="">
+        <option value="">Học lực</option>
+        <option value="">Xuất sắc</option>
+        <option value="">Giỏi</option>
+        <option value="">Khá</option>
+    </select>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <button type="button" class="btn btn-default">Duyệt</button>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/src/css/main.css">
-    <link rel="icon" href="/src/images/favicon.png" type="image/gif" sizes="16x16">
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
-</head>
+</div>
 
-<body>
-
-    <div class="select-item-left">
-        <select name="" id="">
-            <option value="">Chọn năm học</option>
-            <option value="">CNTT5</option>
-            <option value="">CNTT4</option>
-            <option value="">CNTT3</option>
-            <option value="">CNTT2</option>
-            <option value="">CNTT1</option>
-        </select>
-        <select name="" id="">
-            <option value="">Kỳ học</option>
-            <option value="">CN1</option>
-            <option value="">KH2</option>
-            <option value="">MHT3</option>
-            <option value="">CN2</option>
-        </select>
-        <select name="" id="">
-            <option value="">Học lực</option>
-            <option value="">CN1</option>
-            <option value="">KH2</option>
-            <option value="">MHT3</option>
-            <option value="">CN2</option>
-        </select>
-
-        <button type="button" class="btn btn-default">Duyệt</button>
-
+<div class="container-table">
+    <div class="button-item">
+        <button type="button" class="btn btn-sm btn-success">Xuất excel</button>
+        <button type="button" class="btn btn-sm btn-danger">PDF</button>
     </div>
 
-    <div class="container-table">
-        <div class="button-item">
-            <button type="button" class="btn btn-sm btn-success">Xuất excel</button>
-            <button type="button" class="btn btn-sm btn-danger">PDF</button>
-        </div>
-
-        <div class="show-table">
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th>STT</th>
-                        <th>Mã sinh viên</th>
-                        <th>Họ và tên</th>
-                        <th>Lớp</th>
-                        <th>Mã môn học</th>
-                        <th>Điểm chuyên cần</th>
-                        <th>Điểm thường xuyên</th>
-                        <th>Điểm giữa kỳ</th>
-                        <th>Điểm cuối kỳ</th>
-                        <th>Điểm thi lại</th>
-                        <th>Hoạt động</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>001</td>
-                        <td>Bùi Văn Đạt</td>
-                        <td>CNTT5</td>
-                        <td>CN1</td>
-                        <td>CN1</td>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>
-                            <button type="button" class="btn edit"><a href="#">sửa</a></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>002</td>
-                        <td>Phạm Quang Đức</td>
-                        <td>CNTT5</td>
-                        <td>CN1</td>
-                        <td>CN1</td>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>
-                            <button type="button" class="btn edit"><a href="#">sửa</a></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>003</td>
-                        <td>Vũ Hữu Hào</td>
-                        <td>CNTT5</td>
-                        <td>CN1</td>
-                        <td>CN1</td>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>
-                            <button type="button" class="btn edit"><a href="#">sửa</a></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>004</td>
-                        <td>Nguyễn Thế Hướng</td>
-                        <td>CNTT5</td>
-                        <td>CN1</td>
-                        <td>CN1</td>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>
-                            <button type="button" class="btn edit"><a href="#">sửa</a></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>005</td>
-                        <td>Lê Xuân Quỳnh</td>
-                        <td>CNTT5</td>
-                        <td>CN1</td>
-                        <td>CN1</td>
-                        <td>100</td>
-                        <td>100</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>
-                            <button type="button" class="btn edit"><a href="#">sửa</a></button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="pagination-block">
-            <ul class="pagination">
-                <li><a href="#">&laquo;</a></li>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">&raquo;</a></li>
-            </ul>
-        </div>
+    <div class="show-table">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Mã sinh viên</th>
+                    <th>Họ và tên</th>
+                    <th>Lớp</th>
+                    <th>Học bổng loại</th>
+                    <th>Năm học</th>
+                    <th>Học kỳ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>0006</td>
+                    <td>Vũ Văn A</td>
+                    <td>CNTT5</td>
+                    <td>Xuất Sắc</td>
+                    <td>2020-2021</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>0007</td>
+                    <td>Nguyễn Văn A</td>
+                    <td>CNTT5</td>
+                    <td>Giỏi</td>
+                    <td>2020-2021</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>0008</td>
+                    <td>Nguyễn Thị C</td>
+                    <td>CNTT6</td>
+                    <td>Giỏi</td>
+                    <td>2020-2021</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>0009</td>
+                    <td>Bùi Văn D</td>
+                    <td>CNTT1</td>
+                    <td>Khá</td>
+                    <td>2020-2021</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
-</body>
-
-<script>
-    w3IncludeHTML();
-</script>
-
-</html>
+    <div class="pagination-block">
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+    </div>
+</div>

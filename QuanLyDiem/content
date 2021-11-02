@@ -1,19 +1,4 @@
-<style>
-    ul li a {
-        color: rgb(100, 100, 100);
-    }
-
-    ul li:hover {
-        background-color: rgb(231, 231, 231);
-    }
-
-    ul li a:hover {
-        text-decoration: none;
-        color: rgb(4, 38, 54);
-    }
-</style>
-
-<div class="quan_ly_diem">
+<div class="breadcrumb-style">
     <ol class="breadcrumb">
         <li>
             <a href="/">Trang chủ</a>

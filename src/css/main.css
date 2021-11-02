@@ -82,6 +82,20 @@ div.pagination-block ul.pagination li a{
     color: gray;
 }
 
+/* breadcrump style llist */
+div.breadcrumb-style ul li a {
+  color: rgb(100, 100, 100);
+}
+
+div.breadcrumb-style ul li:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+div.breadcrumb-style ul li a:hover {
+  text-decoration: none;
+  color: rgb(4, 38, 54);
+}
+
 /* vhh - trang header & footer */
 body {
     margin-top: 150px;
@@ -122,8 +136,13 @@ body {
     top: 50px;
 }
 
-main {
-    height: 1000px;
+.drop .dropdown button.btn.btn-default.dropdown-toggle {
+  border: none;
+  font-weight: bold;
+}
+
+.drop .dropdown button.btn.btn-default.dropdown-toggle:hover {
+  background-color: #fff;
 }
 
 article {
@@ -140,7 +159,8 @@ article ul {
 }
 
 .phancuoi1 {
-    background: #bdbdbd;
+    margin-top: 300px;
+    background: #f5f5f5;
     /* color: */
 }
 
@@ -154,16 +174,154 @@ article ul {
 
 .phancuoi1 article ul li a:hover {
     text-decoration: none;
-    color: rgb(235, 235, 235);
+    color: rgb(155, 155, 155);
 }
 
 .phancuoi2 {
     border-top: 1px solid rgb(138, 138, 138);
-    background: #bdbdbd;
+    background: #f5f5f5;
 }
 
 .phancuoi2 p {
     text-align: center;
     line-height: 70px;
     height: 70px;
+}
+
+/* nth - menu left */
+.menu-left .navbar-left {
+  padding: 0;
+  position: relative;
+  margin: 0;
+}
+.menu-left .right {
+  padding: 0;
+}
+.menu-left .navbar {
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0px;
+  position: fixed;
+  top: 100px;
+  margin-top: 10px;
+}
+.menu-left .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-left .navbar ul li a,
+label {
+  color: rgb(100, 100, 100);
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+  margin: 0px;
+  padding-left: 30px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.menu-left .navbar ul li a.dlink,
+.menu-left .navbar ul li a.sv-link,
+#input2,
+#item-input {
+  display: none;
+}
+.menu-left .navbar ul .menu-diem,
+.menu-left .navbar ul .menu-sv {
+  max-height: 0px;
+  overflow: hidden;
+}
+.menu-left .navbar #item-input:checked ~ .menu-diem,
+.menu-left .navbar #input2:checked ~ .menu-sv {
+  max-height: 100%;
+}
+.menu-left .navbar ul li.item a {
+  padding-left: 25px;
+  margin: 2px 20px 2px 30px;
+  border-radius: 20px;
+}
+.menu-left .navbar ul li a {
+  font-weight: bold;
+}
+.menu-left .navbar ul li a:hover,
+label:hover {
+  border-radius: 20px;
+  color: rgb(150, 150, 150);
+  background-color: rgb(230, 230, 230);
+}
+.menu-left .navbar #item-input:checked ~ label {
+  border-radius: 20px;
+  background-color: rgb(214, 214, 214);
+}
+label span {
+  padding-left: 5px;
+  font-size: 10px;
+}
+.menu-left li.home {
+  background-color: #3d3d3d;
+  border-radius: 20px;
+}
+
+.menu-left .navbar ul li.home a {
+  font-size: 25px;
+  color: rgb(221, 221, 221);
+}
+.menu-left .navbar ul li.home a:hover {
+  background-color: #3d3d3d;
+}
+.menu-left .navbar #check-collap {
+  margin-right: 100%;
+  margin-left: 5px;
+  line-height: 50px;
+  font-size: 25px;
+  padding: 0;
+  color: rgb(68, 68, 68);
+}
+.menu-left .navbar #exit-collap {
+  padding: 8px;
+  margin-left: 82%;
+  margin-bottom: 2px;
+}
+.menu-left #collap-input,
+#check-collap,
+#exit-collap {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .menu-left .navbar {
+    width: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 90px;
+    z-index:10;
+  }
+  .menu-left .navbar-left {
+    padding: 0;
+  }
+  .menu-left .navbar ul.navbar-menu {
+    position: absolute;
+    width: 200px;
+    height: 700px;
+    top: 48px;
+    left: -300px;
+    background-color: #fff;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 0;
+    z-index: 1;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .menu-left #check-collap,
+  .menu-left #exit-collap {
+    display: block;
+  }
+  .menu-left .navbar #collap-input:checked ~ .navbar-menu {
+    left: -1px;
+  }
+}
+
+.menu-left {
+  margin-top: -15px;
 }
