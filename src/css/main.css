@@ -6,6 +6,8 @@
   padding: 0;
 }
 
+/*  */
+
 main {
   margin-bottom: 200px;
 }
@@ -396,4 +398,120 @@ background-color: navajowhite;
   border: 1px solid black;
   border-radius: 20%;
   margin-left: 10px;
+}
+
+/* pqd - them/sua/tim kiem sinh vien */
+
+.sua_sinh_vien .container__right1 {
+  float: left;
+  width: 30%;
+}
+
+.sua_sinh_vien .container__right2 {
+  float: left;
+  width: 70%;
+}
+.sua_sinh_vien .container__right1--avt {
+  width: 250px;
+  height: 280px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.main-content {
+  overflow: auto;
+}
+
+.container__right2--li {
+  list-style: none;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  width: 95%;
+}
+
+.container__right2--li p {
+  min-width: 100px;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.container__right2--li input, .container__right2--li select {
+  width: 100%;
+  outline-color: #777;
+  padding: 4px 0;
+  text-indent: 5px;
+}
+
+.container__right2--li input:hover, .container__right2--li input:focus, .container__right2--li select:hover, .container__right2--li select:focus {
+  background-color: rgb(240, 240, 240);
+}
+
+.container__right2--radio {
+  width: 250px;
+}
+
+.container__right2--ul {
+  width: auto;
+}
+
+.container__right2--li .male, .container__right2--li .female {
+  display: inline-block;
+  width: 30px;
+}
+
+.container__right2--button {
+  justify-content: center;
+
+}
+
+.container__right2--li button {
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  color: rgb(80, 80, 80);
+}
+
+.container__right2--li button:hover {
+  background-color: rgb(126, 126, 126);
+  border: 1px solid rgb(153, 153, 153);
+  color: rgb(235, 235, 235);
+}
+
+@media only screen and (max-width: 800px) {
+  .sua_sinh_vien .container__right1 {
+      display: flex;
+      width: 100%;
+      float: none;
+      justify-content: center;
+  }
+
+  .sua_sinh_vien .container__right2 {
+    display: flex;
+    width: 100%;
+    float: none;
+    justify-content: center;
+  }
+
+  .sua_sinh_vien .container__right1--avt {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px; 
+  }
+
+  .sua_sinh_vien .container__right2--li {
+    width: 265px;
+  }
+
+
+  .sua_sinh_vien .container__right2--li p {
+    min-width: 70px;
+  }
+
+  .sua_sinh_vien .container__right {
+    padding: 0 15px;
+  }
+ 
 }
