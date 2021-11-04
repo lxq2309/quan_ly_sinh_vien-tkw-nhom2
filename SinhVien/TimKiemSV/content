@@ -1,3 +1,15 @@
+<div class="breadcrumb-style">
+    <ol class="breadcrumb">
+        <li>
+            <a href="/">Trang chủ</a>
+        </li>
+        <li>
+            <a href="/SinhVien">Sinh viên</a>
+        </li>
+        <li class="active">Tìm kiếm sinh viên</li>
+    </ol>
+</div>
+    
     <div class="container__right2">
         <ul class="container__right2--ul">
             <li class="container__right2--li">

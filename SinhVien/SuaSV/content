@@ -1,3 +1,15 @@
+<div class="breadcrumb-style">
+    <ol class="breadcrumb">
+        <li>
+            <a href="/">Trang chủ</a>
+        </li>
+        <li>
+            <a href="/SinhVien">Sinh viên</a>
+        </li>
+        <li class="active">Sửa sinh viên</li>
+    </ol>
+</div>
+
 <div class="sua_sinh_vien">
     <div class="container__right1">
         <img class="container__right1--avt" src="/src/images/avt.jpeg" alt="">

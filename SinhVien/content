@@ -1,3 +1,15 @@
+<div class="breadcrumb-style">
+    <ol class="breadcrumb">
+        <li>
+            <a href="/">Trang chủ</a>
+        </li>
+        <li>
+            <a href="/SinhVien">Sinh viên</a>
+        </li>
+        <li class="active">Danh sách sinh viên</li>
+    </ol>
+</div>
+
 <div class="search-item">
     <div class="input-group">
         <input type="text" class="form-control" id="exampleInputAmount" placeholder="Nhập tên sinh viên">
