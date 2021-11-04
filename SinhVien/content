@@ -3,9 +3,6 @@
         <li>
             <a href="/">Trang chủ</a>
         </li>
-        <li>
-            <a href="/SinhVien">Sinh viên</a>
-        </li>
         <li class="active">Danh sách sinh viên</li>
     </ol>
 </div>
