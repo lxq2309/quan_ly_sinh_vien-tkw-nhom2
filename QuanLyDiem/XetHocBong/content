@@ -12,18 +12,18 @@
 
 <div class="select-item-left">
     <select name="" id="">
-        <option value="">Chọn năm học</option>
+        <option value="" disabled selected>Chọn năm học</option>
         <option value="">2021_2022</option>
         <option value="">2020_2021</option>
     </select>
     <select name="" id="">
-        <option value="">Kỳ học</option>
+        <option value="" disabled selected>Kỳ học</option>
         <option value="">2021_2022_1</option>
         <option value="">2020_2021_2</option>
         <option value="">2020_2021_1</option>
     </select>
     <select name="" id="">
-        <option value="">Học lực</option>
+        <option value="" disabled selected>Học lực</option>
         <option value="">Xuất sắc</option>
         <option value="">Giỏi</option>
         <option value="">Khá</option>

@@ -12,7 +12,7 @@
 
 <div class="select-item-left">
     <select name="" id="">
-        <option value="">Chọn lớp</option>
+        <option value="" disabled selected>Chọn lớp</option>
         <option value="">CNTT5</option>
         <option value="">CNTT4</option>
         <option value="">CNTT3</option>
@@ -20,7 +20,7 @@
         <option value="">CNTT1</option>
     </select>
     <select name="" id="">
-        <option value="">Mã môn học</option>
+        <option value="" disabled selected>Mã môn học</option>
         <option value="">CN1</option>
         <option value="">KH2</option>
         <option value="">MHT3</option>
