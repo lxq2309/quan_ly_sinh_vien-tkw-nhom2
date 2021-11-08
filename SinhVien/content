@@ -66,7 +66,7 @@
                     <td>Hà Nội</td>
                     <td>CNTT5</td>
                     <td>
-                        <button type="button" class="btn edit"><a href="#">sửa</a></button>
+                        <button type="button" class="btn edit"><a href="/SinhVien/SuaSV/001/">sửa</a></button>
                         <button type="button" class="btn remove"><a href="#">xóa</a></button>
                     </td>
                 </tr>
@@ -79,7 +79,7 @@
                     <td>Hà Nội</td>
                     <td>CNTT5</td>
                     <td>
-                        <button type="button" class="btn edit"><a href="#">sửa</a></button>
+                        <button type="button" class="btn edit"><a href="/SinhVien/SuaSV/002/">sửa</a></button>
                         <button type="button" class="btn remove"><a href="#">xóa</a></button>
                     </td>
                 </tr>
@@ -92,7 +92,7 @@
                     <td>Thái Bình</td>
                     <td>CNTT5</td>
                     <td>
-                        <button type="button" class="btn edit"><a href="#">sửa</a></button>
+                        <button type="button" class="btn edit"><a href="/SinhVien/SuaSV/003/">sửa</a></button>
                         <button type="button" class="btn remove"><a href="#">xóa</a></button>
                     </td>
                 </tr>
@@ -105,7 +105,7 @@
                     <td>Hà Nam</td>
                     <td>CNTT5</td>
                     <td>
-                        <button type="button" class="btn edit"><a href="#">sửa</a></button>
+                        <button type="button" class="btn edit"><a href="/SinhVien/SuaSV/004">sửa</a></button>
                         <button type="button" class="btn remove"><a href="#">xóa</a></button>
                     </td>
                 </tr>
@@ -118,7 +118,7 @@
                     <td>Hà Nam</td>
                     <td>CNTT5</td>
                     <td>
-                        <button type="button" class="btn edit"><a href="#">sửa</a></button>
+                        <button type="button" class="btn edit"><a href="/SinhVien/SuaSV/005">sửa</a></button>
                         <button type="button" class="btn remove"><a href="#">xóa</a></button>
                     </td>
                 </tr>

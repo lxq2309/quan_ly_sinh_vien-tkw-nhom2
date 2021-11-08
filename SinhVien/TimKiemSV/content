@@ -23,7 +23,7 @@
             <li class="container__right2--li">
                 <p>Quê quán: </p>
                 <select name="flatform">
-                    <option hidden>----Chọn Tỉnh/Thành----</option>
+                    <option>----Chọn Tỉnh/Thành----</option>
                     <option value="An Giang">An Giang
                     <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu
                     <option value="Bắc Giang">Bắc Giang
@@ -94,7 +94,7 @@
             <li class="container__right2--li">
                 <p>Khoa: </p>
                 <select>
-                    <option hidden>----Chọn Khoa----</option>
+                    <option>----Chọn Khoa----</option>
                     <option>CNTT</option>
                     <option>KHCB</option>
                     <option>ĐTVT</option>
@@ -103,7 +103,7 @@
             <li class="container__right2--li">
                 <p>Khóa: </p>
                 <select>
-                    <option hidden>----Chọn Khóa----</option>
+                    <option>----Chọn Khóa----</option>
                     <option>Khóa 61</option>
                     <option>Khóa 60</option>
                     <option>Khóa 59</option>
@@ -113,7 +113,7 @@
             <li class="container__right2--li">
                 <p>Lớp: </p>
                 <select>
-                    <option hidden>----Chọn Lớp----</option>
+                    <option>----Chọn Lớp----</option>
                     <option>CNTT6</option>
                     <option>CNTT5</option>
                     <option>CNTT4</option>
