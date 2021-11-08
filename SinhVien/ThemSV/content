@@ -94,7 +94,7 @@
             <li class="container__right2--li">
                 <p>Khoa: </p>
                 <select>
-                    <option hidden>----Chọn Khoa----</option>
+                    <option disabled selected>----Chọn Khoa----</option>
                     <option>CNTT</option>
                     <option>KHCB</option>
                     <option>ĐTVT</option>

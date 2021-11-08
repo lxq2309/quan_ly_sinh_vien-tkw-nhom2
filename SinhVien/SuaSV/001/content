@@ -97,7 +97,7 @@
             <li class="container__right2--li">
                 <p>Lớp: </p>
                 <select>
-                    <option disable selected>Chọn lớp</option>
+                    <option disabled selected>Chọn lớp</option>
                     <option>CNTT1-K61</option>
                     <option>CNTT2-K61</option>
                     <option>CNTT3-K61</option>
