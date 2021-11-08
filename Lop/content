@@ -18,13 +18,13 @@
 
 <div class="select-item">
     <select name="" id="">
-        <option value="">Chọn khoa</option>
+        <option value="" disabled selected>Chọn khoa</option>
         <option value="">CNTT</option>
         <option value="">KHCB</option>
         <option value="">ĐTVT</option>
     </select>
     <select name="" id="">
-        <option value="">Khóa</option>
+        <option value="" disabled selected>Khóa</option>
         <option value="">K61</option>
         <option value="">K60</option>
         <option value="">K59</option>

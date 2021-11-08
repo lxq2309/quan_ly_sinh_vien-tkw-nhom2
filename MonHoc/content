@@ -19,13 +19,13 @@
 
 <div class="select-item">
     <select name="" id="">
-        <option value="">Chọn khoa</option>
+        <option value="" disabled selected>Chọn khoa</option>
         <option value="">CNTT</option>
         <option value="">KHCB</option>
         <option value="">ĐTVT</option>
     </select>
     <select name="" id="">
-        <option value="">Bộ môn</option>
+        <option value="" disabled selected>Bộ môn</option>
         <option value="">CNPM</option>
         <option value="">KHMT</option>
         <option value="">Mạng & HTTT</option>
