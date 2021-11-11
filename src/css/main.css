@@ -285,9 +285,16 @@ label:hover {
   border-radius: 20px;
   color: rgb(150, 150, 150);
   background-color: rgb(230, 230, 230);
-  transform: translateX(20px);
-  transition: transform 0.4s;
 }
+
+@media only screen and (min-width: 991px) {
+  .menu-left .navbar ul li a:hover,
+label:hover {
+    transform: translateX(20px);
+    transition: transform 0.4s;
+}
+}
+
 .menu-left .navbar #item-input:checked ~ label {
   border-radius: 20px;
   background-color: rgb(214, 214, 214);

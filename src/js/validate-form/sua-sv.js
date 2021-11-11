@@ -32,7 +32,6 @@ function validform(f){
     }
 
 
-
     if(checknull(f.data)){
         alert("Bạn chưa nhập ngày sinh !")
         f.data.focus();
