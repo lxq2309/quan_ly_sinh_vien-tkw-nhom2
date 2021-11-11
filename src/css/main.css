@@ -85,6 +85,10 @@ div.add-item {
     float: right;
 }
 
+div.button-item, div.add-item {
+  margin-bottom: 30px;
+}
+
 
 div.pagination-block ul.pagination {
     display: flex;
@@ -281,6 +285,8 @@ label:hover {
   border-radius: 20px;
   color: rgb(150, 150, 150);
   background-color: rgb(230, 230, 230);
+  transform: translateX(20px);
+  transition: transform 0.4s;
 }
 .menu-left .navbar #item-input:checked ~ label {
   border-radius: 20px;
@@ -471,6 +477,31 @@ label span {
   float: left;
   width: 30%;
 }
+
+.photo {
+    text-align: center;
+}
+
+.btn-edit-photo {
+  margin: -20px 0 20px 0;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.btn-edit-photo:hover {
+  background-color: #57595e;
+  color: rgb(233, 232, 232);
+  font-weight: bold;
+  transform:scale(1.4);
+  transition: transform 0.4s;
+}
+
+.sua_sinh_vien .dropdown ul.dropdown-menu{
+    border: none;
+}
+
 
 .sua_sinh_vien .container__right2 {
   float: left;
