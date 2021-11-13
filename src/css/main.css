@@ -299,6 +299,12 @@ label:hover {
   border-radius: 20px;
   background-color: rgb(214, 214, 214);
 }
+
+.menu-left .navbar #input2:checked ~ label {
+  border-radius: 20px;
+  background-color: rgb(214, 214, 214);
+}
+
 label span {
   padding-left: 5px;
   font-size: 10px;
