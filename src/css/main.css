@@ -85,8 +85,16 @@ div.add-item {
     float: right;
 }
 
+div.add-item button a {
+    color: #57595e;
+}
+
+div.add-item button a:hover {
+    text-decoration: none;
+}
+
 div.button-item, div.add-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
